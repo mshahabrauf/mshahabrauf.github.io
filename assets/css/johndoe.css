@@ -2809,6 +2809,8 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: var(--secondary);
   border-color: var(--secondary);
+  text-align: end;
+  align-content: flex-end;
 }
 
 .btn-secondary:hover {
