@@ -11620,15 +11620,26 @@ pre .code {
 }
 
 .about-section {
+  padding-top: 60px ;
   border-bottom: 1px solid #dee2e6;
 }
 
 .about-section .about-card {
-  padding: 60px;
+  padding-right: 60px ;
+  padding-left: 60px ;
+  padding-bottom: 60px ;
+  border-right: 1px solid #dee2e6;
+}
+.about-section .about-card-first-child {
+  padding-right: 60px ;
+  padding-left: 60px ;
   border-right: 1px solid #dee2e6;
 }
 
-.about-section .about-card:last-child {
+.about-section .about-card-last-child {
+  padding-bottom: 60px ;
+  padding-right: 60px ;
+  padding-left: 60px ;
   border-right: none;
 }
 
